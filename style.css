@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(226, 197, 207);
+    text-align: center;
+}
+ p{
+     font-size: large;
+     font-weight: bold;
+     color: blue;
+ }
+ h2{
+     font-size: larger;
+     color: crimson;
+     
+ }
+ input{
+     border-radius: 0.5rem;
+     padding: 0.4rem;
+     
+ }
+ caption{
+     font-size: large;
+     color: crimson;
+     font-weight: inherit;
+ }
+ h1{
+     color: crimson;
+ }
+ button{
+     color: crimson;
+     font-size: 1rem;
+     font-weight: bold;
+     border-spacing: 0.5rem;
+ }
+ tbody tr:nth-child(odd) {
+    background-color: #90ccb5ce;
+}
+tbody tr:nth-child(even) {
+    background-color: #14a5afce;
+}
