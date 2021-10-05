@@ -8,19 +8,22 @@ body{
      color: blue;
  }
  h2{
-     font-size: larger;
+     font-size: x-large;
      color: crimson;
+
      
  }
  input{
      border-radius: 0.5rem;
-     padding: 0.4rem;
+     padding: 0.6rem;
+     width: 10cm;
      
  }
  caption{
      font-size: large;
      color: crimson;
      font-weight: inherit;
+     margin-top: 5rem;
  }
  h1{
      color: crimson;
@@ -30,10 +33,12 @@ body{
      font-size: 1rem;
      font-weight: bold;
      border-spacing: 0.5rem;
+     margin-top: 0.9rem;
  }
  tbody tr:nth-child(odd) {
     background-color: #90ccb5ce;
 }
 tbody tr:nth-child(even) {
     background-color: #14a5afce;
+    font-size: x-large;
 }

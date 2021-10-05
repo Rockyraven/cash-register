@@ -10,6 +10,10 @@ checkButton.addEventListener("click", validateBillAmount);
 function validateBillAmount(){
 
     errorMessage.style.display = "none";
+    if(cashGiven.value<=0){
+      alertMessage.innerText = "invalid";
+      }
+      else{}
    if(billAmount.value>0) {
 
     if(cashGiven.value >= billAmount.value){
@@ -29,6 +33,7 @@ function validateBillAmount(){
        errorMessage.innerText = "The bill amount should be a positive value";
    }
 }
+ 
   function amoutLeft(amountToBeReturned){
          for (let i = 0; i < notesAvailable.length; i++) {
           
